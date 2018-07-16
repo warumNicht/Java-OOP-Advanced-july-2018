@@ -1,4 +1,4 @@
-package pb01_GenerixBox;
+package genericsExercises.pb01_GenerixBox;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -13,7 +13,7 @@ public class Main {
 
         int n=Integer.parseInt(reader.readLine());
 
-        List<Box> boxes=new ArrayList<>();
+        List<Box<String>> boxes=new ArrayList<>();
 
         for(int i=0; i<n; i++){
             boxes.add(new Box(reader.readLine()));

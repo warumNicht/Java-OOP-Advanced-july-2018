@@ -1,4 +1,4 @@
-package pb01_GenerixBox;
+package genericsExercises.pb02_GenerixBoxofInteger;
 
 public class Box <T>{
     private T value;
