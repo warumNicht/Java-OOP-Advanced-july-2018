@@ -1,4 +1,6 @@
-package p04_recharge;
+package p04_rechargeWithAdapterB;
+
+import p04_recharge.Rechargeable;
 
 public class RechargeStation {
 

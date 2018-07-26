@@ -1,6 +1,9 @@
-package p04_recharge;
+package p04_rechargeWithAdapterB;
 
-public class Robot extends Worker implements Rechargeable {
+import p04_recharge.Rechargeable;
+import p04_recharge.Worker;
+
+public class Robot extends Worker {
 
     private int capacity;
     private int currentPower;
@@ -31,8 +34,6 @@ public class Robot extends Worker implements Rechargeable {
         this.currentPower -= hours;
     }
 
-    public void recharge() {
-        this.currentPower = this.capacity;
-    }
+
 
 }

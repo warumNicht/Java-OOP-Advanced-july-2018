@@ -1,4 +1,4 @@
-package p04_recharge;
+package p04_rechargeWithAdapterB;
 
 public abstract class Worker  {
 
