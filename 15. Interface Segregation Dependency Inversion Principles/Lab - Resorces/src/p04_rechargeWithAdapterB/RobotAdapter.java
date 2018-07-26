@@ -1,14 +1,14 @@
 package p04_rechargeWithAdapterB;
 
-public class RobotAdapter implements Rechargeable {
-    private Robot robot;
+public class RobotAdapter extends Robot implements Rechargeable {
 
-    public RobotAdapter(Robot robot) {
-        this.robot = robot;
+
+    public RobotAdapter(String id, int capacity) {
+        super(id, capacity);
     }
 
     @Override
     public void recharge() {
-        this.robot.setCurrentPower(this.robot.getCurrentPower()+this.robot.getCapacity());
+        this.setCurrentPower(this.getCurrentPower()+this.getCapacity());
     }
 }
