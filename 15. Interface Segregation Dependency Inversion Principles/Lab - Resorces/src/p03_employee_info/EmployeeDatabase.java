@@ -1,0 +1,22 @@
+package p03_employee_info;
+
+import p03_employee_info.interfaces.DataBase;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class EmployeeDatabase implements DataBase {
+
+    @Override
+    public List<Employee> readEmployees() {
+        List<Employee> employees = new ArrayList<>();
+        Collections.addAll(employees,
+                new Employee("Pesho", 20),
+                new Employee("Gosho", 40),
+                new Employee("Ivan", 50));
+
+        return employees;
+    }
+
+}
