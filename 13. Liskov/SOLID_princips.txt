@@ -1,0 +1,7 @@
+S.O.L.I.D. :
+
+1 - S : Single responsability
+2 - O : Open-Close princip
+3 - L : Liskov substitution princip, родителя да може да се замести от кой да е наследник
+4 - I : Interface segregation
+5 - D : Dependency invertion 
